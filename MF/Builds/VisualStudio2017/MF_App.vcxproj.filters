@@ -361,6 +361,12 @@
     <Filter Include="Juce Library Code">
       <UniqueIdentifier>{8B4D1BAA-6DB4-CAEC-A0FA-271F354D5C61}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MF\Source\Core_State">
+      <UniqueIdentifier>{b05b4768-e349-473f-83f8-a45e504ced85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MF\Source\Core_Entity">
+      <UniqueIdentifier>{3573a3fd-882f-4998-9d00-1c027be04915}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MainComponent.cpp">
@@ -1996,13 +2002,19 @@
       <Filter>Juce Library Code</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\BaseEntity.cpp">
-      <Filter>MF\Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\State.cpp">
-      <Filter>MF\Source</Filter>
+      <Filter>MF\Source\Core_Entity</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\EntityManager.cpp">
-      <Filter>MF\Source</Filter>
+      <Filter>MF\Source\Core_Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\State.cpp">
+      <Filter>MF\Source\Core_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MessageDispatcher.cpp">
+      <Filter>MF\Source\Core_Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CrudeTimer.cpp">
+      <Filter>MF\Source\Core_Entity</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -3834,19 +3846,28 @@
       <Filter>Juce Library Code</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\BaseEntity.h">
-      <Filter>MF\Source</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\State.h">
-      <Filter>MF\Source</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\StateMachine.h">
-      <Filter>MF\Source</Filter>
+      <Filter>MF\Source\Core_Entity</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\EntityManager.h">
-      <Filter>MF\Source</Filter>
+      <Filter>MF\Source\Core_Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\StateMachine.h">
+      <Filter>MF\Source\Core_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\State.h">
+      <Filter>MF\Source\Core_State</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Telegram.h">
-      <Filter>MF\Source</Filter>
+      <Filter>MF\Source\Core_Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MessageDispatcher.h">
+      <Filter>MF\Source\Core_Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CrudeTimer.h">
+      <Filter>MF\Source\Core_Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EntityNames.h">
+      <Filter>MF\Source\Core_Entity</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
