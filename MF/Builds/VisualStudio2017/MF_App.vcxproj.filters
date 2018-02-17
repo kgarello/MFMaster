@@ -2022,6 +2022,10 @@
     <ClCompile Include="..\..\Source\IncomingMessageCallback.cpp">
       <Filter>MF\Source\Core_Midi</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MidiReceiver.cpp">
+      <Filter>MF\Source\Core_Midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MidiMapCreator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\MainComponent.h">
@@ -3880,6 +3884,9 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\MidiMapCreator.h" />
     <ClInclude Include="..\..\Source\IncomingMessageCallback.h">
+      <Filter>MF\Source\Core_Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MidiReceiver.h">
       <Filter>MF\Source\Core_Midi</Filter>
     </ClInclude>
   </ItemGroup>

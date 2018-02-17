@@ -1745,6 +1745,8 @@
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_osc.cpp" />
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_video.cpp" />
     <ClCompile Include="..\..\Source\MessageDispatcher.cpp" />
+    <ClCompile Include="..\..\Source\MidiMapCreator.cpp" />
+    <ClCompile Include="..\..\Source\MidiReceiver.cpp" />
     <ClCompile Include="..\..\Source\State.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -2365,6 +2367,7 @@
     <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h" />
     <ClInclude Include="..\..\Source\MessageDispatcher.h" />
     <ClInclude Include="..\..\Source\MidiMapCreator.h" />
+    <ClInclude Include="..\..\Source\MidiReceiver.h" />
     <ClInclude Include="..\..\Source\State.h" />
     <ClInclude Include="..\..\Source\StateMachine.h" />
     <ClInclude Include="..\..\Source\Telegram.h" />
