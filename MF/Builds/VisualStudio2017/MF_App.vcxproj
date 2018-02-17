@@ -1751,6 +1751,7 @@
     <ClInclude Include="..\..\Source\CrudeTimer.h" />
     <ClInclude Include="..\..\Source\EntityManager.h" />
     <ClInclude Include="..\..\Source\EntityNames.h" />
+    <ClInclude Include="..\..\Source\iMidiHandler.h" />
     <ClInclude Include="..\..\Source\MainComponent.h" />
     <ClInclude Include="..\..\..\..\..\..\juce5-git\JUCE-master\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h" />
     <ClInclude Include="..\..\..\..\..\..\juce5-git\JUCE-master\modules\juce_audio_basics\buffers\juce_AudioChannelSet.h" />

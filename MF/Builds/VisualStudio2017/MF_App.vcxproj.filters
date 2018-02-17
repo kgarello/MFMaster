@@ -367,6 +367,9 @@
     <Filter Include="MF\Source\Core_Entity">
       <UniqueIdentifier>{3573a3fd-882f-4998-9d00-1c027be04915}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MF\Source\Core_Midi">
+      <UniqueIdentifier>{9de5210c-7f16-480e-9b5b-dd9cce6a2aca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MainComponent.cpp">
@@ -3869,8 +3872,8 @@
     <ClInclude Include="..\..\Source\EntityNames.h">
       <Filter>MF\Source\Core_Entity</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\MidiMapCreator.h">
-      <Filter>MF\Source</Filter>
+    <ClInclude Include="..\..\Source\iMidiHandler.h">
+      <Filter>MF\Source\Core_Midi</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
