@@ -2361,6 +2361,7 @@
     <ClInclude Include="..\..\JuceLibraryCode\AppConfig.h" />
     <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h" />
     <ClInclude Include="..\..\Source\MessageDispatcher.h" />
+    <ClInclude Include="..\..\Source\MidiMapCreator.h" />
     <ClInclude Include="..\..\Source\State.h" />
     <ClInclude Include="..\..\Source\StateMachine.h" />
     <ClInclude Include="..\..\Source\Telegram.h" />

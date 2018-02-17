@@ -3869,6 +3869,9 @@
     <ClInclude Include="..\..\Source\EntityNames.h">
       <Filter>MF\Source\Core_Entity</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\MidiMapCreator.h">
+      <Filter>MF\Source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\juce5-git\JUCE-master\modules\juce_audio_formats\codecs\flac\Flac Licence.txt">
