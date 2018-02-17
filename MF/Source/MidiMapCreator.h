@@ -14,7 +14,8 @@ private:
 	// Inherited via IMidiHandler
 	virtual void					HandleMidiInput(juce::MidiMessage message, String source) override;
 	void							Log_MidiMessage(MidiMessage* msg);
-
+	void							InitializeMidiInput();
 public:
-	MidiMapCreator();
+									MidiMapCreator();
+	
 };

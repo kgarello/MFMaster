@@ -10,6 +10,8 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 
+class MidiMapCreator;
+
 
 //==============================================================================
 /*
@@ -27,6 +29,10 @@ public:
     void resized() override;
 
 private:
+
+	ScopedPointer<MidiMapCreator> _midi_map_creator_;
+
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)
 };

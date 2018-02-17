@@ -7,11 +7,14 @@
 */
 
 #include "MainComponent.h"
+#include "MidiMapCreator.h"
 
 
 //==============================================================================
 MainContentComponent::MainContentComponent()
 {
+	_midi_map_creator_ = new MidiMapCreator();
+
     setSize (600, 400);
 }
 
