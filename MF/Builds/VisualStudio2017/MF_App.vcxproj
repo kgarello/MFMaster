@@ -143,6 +143,7 @@
     <ClCompile Include="..\..\Source\BaseEntity.cpp" />
     <ClCompile Include="..\..\Source\CrudeTimer.cpp" />
     <ClCompile Include="..\..\Source\EntityManager.cpp" />
+    <ClCompile Include="..\..\Source\IncomingMessageCallback.cpp" />
     <ClCompile Include="..\..\Source\MainComponent.cpp" />
     <ClCompile Include="..\..\Source\Main.cpp" />
     <ClCompile Include="..\..\..\..\..\..\juce5-git\JUCE-master\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
@@ -1752,6 +1753,7 @@
     <ClInclude Include="..\..\Source\EntityManager.h" />
     <ClInclude Include="..\..\Source\EntityNames.h" />
     <ClInclude Include="..\..\Source\iMidiHandler.h" />
+    <ClInclude Include="..\..\Source\IncomingMessageCallback.h" />
     <ClInclude Include="..\..\Source\MainComponent.h" />
     <ClInclude Include="..\..\..\..\..\..\juce5-git\JUCE-master\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h" />
     <ClInclude Include="..\..\..\..\..\..\juce5-git\JUCE-master\modules\juce_audio_basics\buffers\juce_AudioChannelSet.h" />

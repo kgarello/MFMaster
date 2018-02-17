@@ -2019,6 +2019,9 @@
     <ClCompile Include="..\..\Source\CrudeTimer.cpp">
       <Filter>MF\Source\Core_Entity</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\IncomingMessageCallback.cpp">
+      <Filter>MF\Source\Core_Midi</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\MainComponent.h">
@@ -3873,6 +3876,10 @@
       <Filter>MF\Source\Core_Entity</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\iMidiHandler.h">
+      <Filter>MF\Source\Core_Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MidiMapCreator.h" />
+    <ClInclude Include="..\..\Source\IncomingMessageCallback.h">
       <Filter>MF\Source\Core_Midi</Filter>
     </ClInclude>
   </ItemGroup>
