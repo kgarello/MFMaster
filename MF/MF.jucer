@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="YpMXrH" name="MF" displaySplashScreen="0" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.MF" includeBinaryInAppConfig="1"
+              cppLanguageStandard="11" companyCopyright="" jucerVersion="5.2.0">
+  <MAINGROUP id="F61Be2" name="MF">
+    <GROUP id="{8A862588-078C-2CFA-CD58-A26310AB60D6}" name="Source">
+      <FILE id="A0i30f" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="YbW4Nr" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="bUP0Zw" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="0" isDebug="1" optimisation="1" targetName="MF"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="1" isDebug="0" optimisation="3" targetName="MF"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../juce5-git/JUCE-master/modules"/>
+        <MODULEPATH id="juce_osc" path="../../../../juce5-git/JUCE-master/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

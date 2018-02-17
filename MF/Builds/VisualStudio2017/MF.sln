@@ -1,0 +1,20 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MF - App", "MF_App.vcxproj", "{DFE8D65D-45C7-1BBB-EC6C-07AFEA64E129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE8D65D-45C7-1BBB-EC6C-07AFEA64E129}.Debug|x64.ActiveCfg = Debug|x64
+		{DFE8D65D-45C7-1BBB-EC6C-07AFEA64E129}.Debug|x64.Build.0 = Debug|x64
+		{DFE8D65D-45C7-1BBB-EC6C-07AFEA64E129}.Release|x64.ActiveCfg = Release|x64
+		{DFE8D65D-45C7-1BBB-EC6C-07AFEA64E129}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
